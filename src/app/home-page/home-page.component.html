@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+  </style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#orderhistory">Order History</a></li>
+  <li><a href="#reports">Reporting</a></li>
+  <li><a href="#logout">Log Out</a></li>
+</ul>
+
+</body>
+
+
+<style>
+  input[type=text], select {
+    width: 25%;
+    color: gray;
+    font-family: Calibri, Century Gothic,sans-serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 25%;
+    background-color: dodgerblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: dodgerblue9;
+  }
+
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+</style>
+<body>
+
+<h1> Welcome to the new HR Awards page!</h1>
+
+<div>
+  <form action="action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname">
+
+    <label for="department">Department</label>
+    <select id="department" name="Department">
+      <option value="People">People</option>
+      <option value="Customer & Compliance">Customer & Compliance</option>
+      <option value="IT">IT</option>
+      <option value="Finance">Finance</option>
+      <option value="Marketing">Marketing</option>
+      <option value="Legal">Legal</option>
+      <option value="Business Development">Business Development</option>
+      <option value="Distribution Center">Distribution Center</option>
+      <option value="Ops Administration">Ops Administration</option>
+    </select>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
